@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajkumar rajput website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="continer">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">Introduction</a></li>
+                    <li><a href="/project.html">Projects</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <!-- <div class="hambarger">
+                <img  class="ham" src="sidebar.png" alt=""  width="10 " >
+                <img   class="cross" src="close.png" alt="" width="10" >
+            </div> -->
+            <h3>7746992805</h3>
+            <div class="contactform">
+                <h1>Contact with me for Work/Genral enquiries</h1>
+                <form method="post" name="google-sheet">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control"  name="Name"  id="clintemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clintemail" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="Email" id="clintemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control"  name="Phone" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Enquiry" class="form-label">Enquiry</label>
+                        <input type="name" class="form-control"  name="Enquiry" id="clintemail" aria-describedby="emailHelp">
+                        </div>
+                    <!-- <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclint">
+                        <label class="form-check-label" for="isclint">I want to work on a project with me</label>
+                    </div> -->
+                    <!-- <div class="bt">
+                    <button type="submit" class="btn-sm">Submit</button>
+                </div> -->
+                <div class="btn">
+                    <a href="/cv.txt" target="=_blank">
+                    <button  input  type="submit" name="submit"> Submit</button>
+                    <!-- <input type="submit" value="Submit" name="submit"> -->
+                </div>
+                
+                </form>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+<!--   
+    <script src="script.js"></script> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzgTWT6RLcywTW24A5m6p7gcbdqSu8Pq1J1VBUrl36Nbut8xPcsXl_dqJ8GPak5S7mQ0w/exec'
+        const form = document.forms['google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>

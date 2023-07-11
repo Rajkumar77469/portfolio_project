@@ -1,0 +1,102 @@
+*{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Source+Code+Pro:ital,wght@0,300;1,200;1,300&family=Ysabeau+Infant:ital,wght@0,200;0,500;1,100;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Source+Code+Pro:ital,wght@0,300;1,200;1,300&family=Ysabeau+Infant:ital,wght@0,200;0,500;1,100;1,400&display=swap');
+.main{
+margin: 20px;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+
+/* .h1{
+    margin: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.p{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+} */
+.intro h2{
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 12px;
+}
+.intro{
+    margin: 10 88px;
+}
+.skilcontiner{
+    padding: 12px;
+}
+.skilitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 900;
+}
+.skill{
+    background-color: red;
+    width:265px;
+    height:6px;
+    border: 2px solid black;
+}
+.hundered{
+    width: 200px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 175px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: pink;
+}
+.introduction{
+    text-align: left;
+    margin-right: 12px;
+}
+.introduction h1{
+   color: rgb(255, 0, 149);
+   font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+ 
+}
+.introduction h3{
+    color: black;
+    font-size:x-large;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+    
+}
+.introduction h3:hover{
+    background-color: powderblue;
+    cursor: pointer;
+    
+}
+.introduction h1:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.detils{
+    margin-top: 200px;
+    margin-right: 125px;
+    color: rgb(8, 0, 255);
+}

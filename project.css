@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Source+Code+Pro:ital,wght@0,300;1,200;1,300&family=Ysabeau+Infant:ital,wght@0,200;0,500;1,100;1,400&display=swap');
+.blogitem{
+margin: 20px;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+.blogcontiner{
+    /* padding: 23px; */
+    margin: 0 88px;
+}
+.blogcontiner h1{
+    margin: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+    /* text-align: center; */
+}
+.blogcontiner h1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.blogitem p{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.blogitem h2:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+/* .certificates h1 {
+    margin-left: 700px;
+    margin-top: 2px;
+} */
+/* .btn-sn{
+    margin: 24px;
+    /* font-weight: bold;
+    font-size: 21px; */
+  
+
+/* 
+}.btn-sn button{
+ padding: 9px 14px;
+ border-radius: 22px;
+ color: white;
+ background-color: green;
+ font-weight: bold;
+ font-size: 21px;
+ margin: 0 3px;
+ cursor: pointer;
+}
+.btn-sn button:hover{
+    color: green;
+    background-color: white;
+}  */
+/* .btn{
+    margin-top: 34px;
+}
+.btn button{
+ padding: 9px 14px;
+ border-radius: 22px;
+ color: white;
+ background-color: green;
+ font-weight: bold;
+ font-size: 21px;
+ margin: 0 3px;
+ cursor: pointer;
+}
+.btn button:hover{
+    color: green;
+    background-color: white;
+} */
